@@ -1,0 +1,35 @@
+.accordion-item_wrapper {
+    width: full;
+    border: 1px solid black;
+}
+
+.accordion-item_head {
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px; 
+}
+
+.accordion-item_head__span {
+    width: 96px;
+}
+
+.accordion-item_head__span__button {
+    width: 24px;
+}
+
+.accordion-item_head_open {
+    border-bottom: 1px solid gray;
+}
+
+.accordion-item_body {
+    margin: 8px 16px 8px 16px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px; 
+}
+
+.accordion-item_body__title {
+    font-weight: bold;
+}
